@@ -1,0 +1,6 @@
+﻿** dense rank :- will order rows by specified column and rank rows in partitions with no gaps in ranking values.
+If two or more rows in each partition have the same values, they receive the same rank. The next row has the rank increased by one.
+
+SELECT * from(
+SELECT *, dense_rank() OVER (order by Funding desc)r from Startups) AS Ranked
+WHERE r = 5;

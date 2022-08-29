@@ -1,0 +1,19 @@
+﻿Check the below:
+	** Accessibility **
+		1- buttons, radio buttons, dropdowns, toggles, checkboxes, text boxes, list boxes, date and time pickers, sliders, search fields, pagination and tags. 
+			Do these elements respond correctly to clicks, taps, and other input?
+		2- Is there an error message or page when a particular functionality fails?
+		3- Check log of browser
+		4- If the user didn't add required fields value, should the browser break down ,show error message or prevent the submition with warning message ?
+		5- are mandatory fields clear to user ? 
+		6- is there's an error, is there any error message ?
+		7- are error messages discriptive and easy to understand ?
+
+	** Security **
+		1- Does the user registration functionality work?
+		2- If registration works well, is there a welcome message to the specified user ?
+		3- Would the broswer allow me to access specific url that needs to be authenticated without login?
+		4- would the broswer allow me to take an action that i'm not authorized to take ?
+		
+	** Performance **
+		Check network tab for each and every request to monitor time it takes for every request
